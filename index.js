@@ -32,7 +32,7 @@ function generatePasswords() {
   let lists = [];
   error.textContent = "";
 
-  if (length < 8 || length > 32) {
+  if (length < 8 || length > 18) {
     error.textContent = "The length is outside the parameters. Try again."
   } else if (numbers === false && symbols === true) { /* LETTERS + SYMBOLS */
     for (let i = 0; i < length; i++) {
