@@ -57,8 +57,14 @@ p {
   font-family: 'Inter', sans-serif;
 }
 
-button {
+.buttons {
   margin-top: 2rem;
+  display: flex;
+  gap: 1%;
+  justify-content: space-evenly;;
+}
+
+button {
   display: block;
   background: #10B981;
   border: none;
@@ -67,7 +73,6 @@ button {
   color: #FFFFFF;
   cursor: pointer;
 }
-
 .body {
   padding: 0;
   display: flex;
@@ -86,4 +91,15 @@ button {
   width: 50%;
   height: 39px;
   border-radius: 6px;
+}
+
+.return {
+  text-decoration: none;
+  color: unset;
+  display: inline-block;
+  margin-top: 0;
+}
+
+a {
+  display: inline-block;
 }
